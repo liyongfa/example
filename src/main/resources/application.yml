@@ -1,1 +1,9 @@
-
+app:
+  id: SampleApp
+apollo:
+  meta: http://localhost:8080 #这个端口和eureka的访问端口是一样的
+  bootstrap:
+    enable: true
+env: DEV
+server:
+  port: 9999
